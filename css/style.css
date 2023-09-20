@@ -364,6 +364,9 @@ h2.duration{
     .mobile{
         display: block;
     }
+    .lesson:nth-child(7){
+        border: 0;
+    }
 }
 
 
