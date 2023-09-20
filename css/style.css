@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 140%;
+}
+
+body{
+    font-family: 'TT Hoves';
+    color: #222;
+}
+
+h2{
+    font-size: calc(2.6vw + 24px); 
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+
+section{
+    padding: 0 calc(10.6vw - 16px);
+    margin-bottom: calc(11vw + 19px);
+}
+
+section.hello{
+    background-image: url(../img/html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right 121px top 60px;
+    background-size: calc(23.8vw + 90px);
+}
+
+.logo{
+    width: calc(1vw + 181px);
+    margin-top: 37px;
+    margin-bottom: 28px;
+}
+
+.courseData{
+    display: flex;
+    gap: 30px 160px;
+    flex-wrap: wrap;
+    font-size: 21px;
+    margin-bottom: 76px;
+}
+
+
+
+.value{
+    font-weight: 700;
+}
+
+h1{
+    font-family: 'Chava';
+    font-size: calc(4.2vw + 26px);
+    font-weight: 400;
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: calc(1vw + 14px);
+    font-weight: 300;
+}
+
+.cta{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.primary{
+    flex-basis: 328px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: 20px 0;
+    gap: 10px;
+    border-radius: 12px;
+    background: #6E3ABA;
+    color: #fff;
+}
+.secondary{
+    flex-basis: 328px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: 20px 0;
+    gap: 10px;
+    border-radius: 12px;
+    background: #fff;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+}
+
+/* second section */
+
+.people{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 70px;
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+.sectionTwo{
+    font-size: 58px;
+    letter-spacing: 0.58px;
+    margin-bottom: 90px;
+}
+.peopleInfo{
+    flex-basis: 450px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.peopleInfo img{
+    width: calc(2.6vw + 220px);
+    margin-bottom: 20px;
+}
+
+.peopleInfo h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.peopleInfo p{
+    text-transform: none;
+    margin-bottom: 60px;
+} 
+
+/* section three */
+
+
+
+.purple{
+    background-color: #6E3ABA;
+}
+
+.perple_header{
+    /* padding-top: 80px; */
+    padding-bottom: 57px;
+    text-align: center;
+    color: #fff;
+    font-size: calc(2.6vw + 24px);
+    font-weight: 700;
+    letter-spacing: 1.56px;
+}
+
+.timer{
+    display: flex;
+    gap: 90px;
+    justify-content: space-around;
+    margin: calc(4.08vw  + 5px) 0;
+}
+
+.box{
+    color: #2F1D4E;
+}
+
+.number{
+    font-family: 'Chava';
+    font-size: calc(12.6vw + 13px);
+    line-height: 107.5%;
+}
+
+.leter{
+    font-size: calc(1.8vw + 3px);
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.centre{
+    margin: 0 auto;
+}
+
+section.purple{
+    padding-top: calc(4.4vw + 23px);
+    padding-bottom: calc(5.2vw + 22px);
+
+}
+
+/* fourth section */
+
+h2.teacher{
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    margin-bottom: calc(5.5vw + 19px);
+}
+.face_teacher{
+    width: calc(7.7vw + 300px);
+}
+
+.teacher_info{
+    display: flex;
+    gap: 20px 52px;
+    flex-wrap: wrap;
+}
+
+.ym{
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.teacher_bio{
+    flex-basis: calc(28.5vw + 221px);
+    flex-grow: 3;
+}
+
+.teacher_bio h3{
+    font-size: calc(1vw + 34px);
+    font-weight: 700;
+    line-height: 58px; 
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    text-align: left;
+}
+/* .teacher_bio p{
+    font-size: calc(0.99vw + 14px);
+} */
+
+.teacher_achivments{
+    margin-top: calc(5.5vw + 19px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: calc(1.1vw + 26px) calc(8.8vw - 23px);
+
+}
+
+.teacher_achivments img{
+    display: block;
+    margin-bottom: 10px;
+    font-size: calc(0.5vw + 14px);
+}
+
+/*  section five */
+
+h2.duration{
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    margin-bottom: calc(7.7vw - 9px);
+}
+
+.duration_info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 120px;
+}
+
+.duration_text{
+    flex-basis: calc(7.9vw + 298px);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.duration_text h4{
+    font-size: calc(0.9vw  + 14px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    margin-bottom: calc(1vw + 6px);
+}
+
+.duration_info p{
+    font-size: calc(0.9vw  + 14px);
+}
+
+/* section six */
+
+/* .six{
+    background: url(../img/frame.png);
+    background-repeat: no-repeat;
+    background-position: right calc(10.6vw - 16px) top 0;
+    background-size: calc(81.4vw + 23px);
+
+    position: relative;
+} */
+
+/* .container_info{
+    position: absolute;
+    top: calc(4.4vw + 23px);
+    left: calc(15.5vw - 15px);
+}
+
+.six img{
+    width: calc(81.4vw + 23px);
+    height: calc(16.6vw + 575px);
+} */
+
+/* .six h2{
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    letter-spacing: 0.34px;
+    text-transform: uppercase;
+    padding: 0 0 calc(1.7vw + 17px) 64px;
+    padding-bottom: calc(1.7vw + 17px);
+} */
+
+
+
+/* .six li{
+    list-style: none;
+    font-size: calc(0.55vw + 14px);
+    padding-left: 64px;
+    margin: 24px 0;
+} */
+
+/* .margin_btn{
+    margin-top: 35px;
+    margin-bottom: 35px;
+} */
+
+/* hr{
+    width: calc(70vw + 3px);
+    margin-left: calc(4.8vw  + 2px);
+    color: #A1A1A1;
+} */
+
+.prog{
+    border: 2px solid;
+    /* padding-top: calc(4.5vw + 23px);
+    padding-left: calc(4.8vw + 2px);
+    padding-bottom: calc(1.7vw + 17px); */
+
+    padding: calc(4.5vw + 23px) calc(4.9vw + 2px) calc(1.7vw + 17px) calc(4.8vw + 2px);
+    position: relative;
+}
+
+#corner{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: calc(8vw);
+}
+
+.lesson{
+    padding: 24px 0;
+    border-bottom: 1px solid #A1A1A1;
+    font-size: calc(0.5vw + 14px);
+}
+
+.primary{
+    width: 424px;
+}
+
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+}
+
+
+
+
+/* seven section */
+
+/* section:nth-child(7){
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+} */
+
+/* .diplom {
+    flex-basis: calc(11.3vw + 284px);
+    flex-grow: 1;
+    
+} */
+
+/* .diplom img{
+    width: 100%;
+    flex-basis: calc(11.3vw + 284px);
+    flex-grow: 1;
+}
+
+.diplom_info{
+    flex-basis: 200px;
+    flex-grow: 3;
+}
+
+.diplom_info h2{
+    text-transform: uppercase;
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    margin-bottom: 20px;
+} */
+
+.diplom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'a b' 'a c';
+    gap: 20px;
+}
+
+.diplom img{
+    grid-area: a;
+    width: 100%;
+}
+
+.diplom h2{
+    grid-area: b;
+}
+
+.diplom p {
+    grid-area: c;
+}
+
+@media (max-width: 700px){
+    .diplom{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'b' 'a' 'c';
+        gap: 20px;
+    }
+}
+
+/* eight section */
+
+/* section:nth-child(8){
+    position: relative;
+    margin-bottom: calc(26.5vw + 21px);
+} */
+
+
+section:nth-child(8) h2{
+    margin-bottom: calc(2.2vw + 12px);
+}
+section:nth-child(8) p{
+    margin-bottom: calc(1.7vw + 13px);
+}
+
+section:nth-child(8) img{
+    /* width: calc(57vw + 15px); */
+    width: 100%;
+}
+
+/* .hh_img{
+    position: relative;
+    margin-bottom: calc(26.5vw + 21px);
+}
+
+.hh_img img{
+    width: calc(57vw + 15px);
+}
+
+.img_first{
+    position: absolute;
+    top: calc(9vw + 316px);
+    left: calc(5.7vw + 2px);
+}
+.img_second{
+    position: absolute;
+    top: calc(6.9vw + 2px);
+    left: calc(24vw + 7px);
+}
+.img_third{
+    position: absolute;
+    top: calc(12.4vw + 3px);
+} */
+
+
+
+/* nine section */
+
+/* section:nth-child(9){
+    margin-top: calc(19.8vw + 245px);
+} */
+/* calc(11vw + 19px) */
+.present_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box_img img{
+    width: calc(19.1vw + 334px);
+    /* flex-grow: 1; */
+}
+
+.box_info{
+    flex-basis: calc(21.1vw + 248px);
+    align-self: center;
+    flex-grow: 0;
+}
+
+
+.box_info li{
+    list-style: none;
+    margin-bottom: 25px;
+    font-size: calc(0.3vw + 17px);
+}
