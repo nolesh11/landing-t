@@ -509,3 +509,44 @@ section:nth-child(8) img{
     margin-bottom: 25px;
     font-size: calc(0.3vw + 17px);
 }
+
+/* 11 section */
+
+section:nth-child(11) h2{
+    margin-bottom: calc(5vw + 15px);
+} 
+
+.school_info{
+    display: flex;
+    gap: 40px 97px;
+    flex-wrap: wrap;
+}
+
+.school_img{
+    flex-basis: calc(10.8vw + 287px);
+}
+
+.school_img p{
+    font-size: calc(0.5vw + 20px);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: calc(2.2vw + 12px);
+}
+
+.school_achievment{
+    margin-bottom: calc(1vw + 26px);
+}
+
+.school_course{
+    font-size: calc(0.5vw + 14px);
+
+}
+.school_course h6{
+    font-size: calc(2.6vw + 24px);
+}
+
+
+
+
+
+
