@@ -545,6 +545,16 @@ section:nth-child(11) h2{
     font-size: calc(2.6vw + 24px);
 }
 
+/* 12 section */
+
+.tehnikum_img{
+    margin-top: calc(0.4vw + 18px);
+}
+
+.tehnikum_img img{
+    width: calc(19.7vw + 254px);
+}
+
 
 
 
