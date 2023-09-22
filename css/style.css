@@ -24,7 +24,7 @@ section{
 section.hello{
     background-image: url(../img/html_css_js\ 1.png);
     background-repeat: no-repeat;
-    background-position: right 121px top 60px;
+    background-position: right calc(4.8vw + 59px) top 60px;
     background-size: calc(23.8vw + 90px);
 }
 
