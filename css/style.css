@@ -136,7 +136,6 @@ p{
 
 .purple{
     background-color: #6E3ABA;
-    width: 100%;
 }
 
 .perple_header{
@@ -636,5 +635,97 @@ section:nth-child(10) h2{
     font-size: calc(0.3vw + 17px);
 }
 
+/* last section */
 
+.black{
+    background-color: #222222;
+    display: flex;
+    /* gap: 0 160px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+.course_name{
+    /* flex-basis: calc(10.4vw + 290px); */
+    flex-basis: 424px;
+    /* flex-shrink: 1; */
+    /* flex-grow: 0; */
+    color: #fff;
+    margin-top: calc(4.4vw + 23px);
+    /* margin-bottom: calc(15.7vw - 14px); */
+}
+
+.course{
+    margin-top: calc(4.1vw + 26px);
+
+}
+
+.course div{
+    margin-bottom: 23px;
+}
+
+.course span{
+    font-size: calc(0.9vw + 14px);
+    margin-left: 20px;
+}
+
+.form{
+    /* flex-basis: calc(16.3vw + 267px); */
+    flex-basis: 475px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    box-sizing: border-box;
+    background-color: #fff; 
+    margin-top: calc(6.1vw + 22px);
+    margin-bottom: calc(2.3vw + 50px);
+    border-radius: 12px;
+    padding: 60px calc(4.8vw + 12px);
+    text-align: center;
+}
+
+.form h3{
+    text-align: center;
+    font-size: calc(0.4vw + 24px);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.span{
+    font-size: calc(0.5vw + 14px);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 30px 0;
+    width: 100%;
+}
+
+input{
+    border: none;
+    /* border-bottom: 1px solid #A1A1A16B; */
+    margin-bottom: 10px;
+    font-size: calc(0.2vw + 17px);
+}
+
+label{
+    border-bottom: 1px solid #A1A1A16B;
+    /* width: calc(7.8vw + 238px); */
+    width: 100%;
+    text-align: left;
+    margin-bottom: 33px;
+    font-size: calc(0.2vw + 17px);
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.17);
+}
+
+.contact_info{
+    margin-top: 41px;
+}
+.contact_info b{
+    margin-bottom: 10px;
+}
