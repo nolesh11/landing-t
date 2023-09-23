@@ -18,6 +18,8 @@ h2{
 
 section{
     padding: 0 calc(10.6vw - 16px);
+    /* padding-left: calc(10vw - 16px); */
+    /* padding-right: calc(7.9vw - 6px); */
     margin-bottom: calc(11vw + 19px);
 }
 
@@ -134,6 +136,7 @@ p{
 
 .purple{
     background-color: #6E3ABA;
+    width: 100%;
 }
 
 .perple_header{
@@ -148,7 +151,7 @@ p{
 
 .timer{
     display: flex;
-    gap: 90px;
+    gap: calc(6.4vw + 8px);
     justify-content: space-around;
     margin: calc(4.08vw  + 5px) 0;
 }
@@ -556,7 +559,82 @@ section:nth-child(11) h2{
 }
 
 
+/* 10 section */
 
+section:nth-child(10) h2{
+    margin-bottom: calc(2.2vw + 12px);
+}
+
+/* .feedback{
+    display: flex;
+    gap: 30px;
+    display: grid;
+
+} */
+
+/* .student_feedback{
+    width: calc(0.7vw + 325px);
+    padding: 50px calc(0.4vw + 14px) 0;
+    border-radius: 12px;
+    background: #F0F7FD;
+} */
+
+/* calc(0.4vw + 30px) */
+
+/* .student_feedback p{
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+.student_name{
+
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.student_name h5{
+    font-size: calc(0.3vw + 17px);
+    font-weight: 400;
+}
+
+.student_name img{
+    border-radius: 50%;
+} */
+
+.feedbacks{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feedback{
+    flex-basis: calc(0.7vw + 325px);
+    flex-shrink: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px calc(0.4vw + 14px) 44px;
+    border-radius: 12px;
+    background: #F0F7FD;
+}
+
+.user{
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: calc(0.5vw + 38px);
+}
+
+.user img{
+    border-radius: 50%;
+}
+
+.user_name{
+    align-self: center;
+    font-size: calc(0.3vw + 17px);
+}
 
 
 
