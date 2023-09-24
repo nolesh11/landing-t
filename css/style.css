@@ -349,10 +349,6 @@ h2.duration{
     font-size: calc(0.5vw + 14px);
 }
 
-.primary{
-    width: 424px;
-}
-
 .desktop{
     display: block;
 }
@@ -682,7 +678,7 @@ section:nth-child(10) h2{
     padding: 60px calc(4.8vw + 12px); 
     margin-bottom: calc(2.3vw + 50px);
     border-radius: 12px;
-
+    position: relative;
 }
 
 
@@ -707,7 +703,7 @@ form{
 }
 
 label{
-    width: 100%;
+    /* width: 100%; */
     border-bottom: 2px solid #A1A1A16B;
     margin-bottom: 33px;
 
@@ -739,4 +735,39 @@ b{
 .school_contact{
     margin-top: 10px;
     font-size: 18px;
+}
+
+.circle{
+    width: calc(5.9vw + 83px);
+    background-color: #6E3ABA;
+    border-radius: 50%;
+    position: absolute;
+    top: -61px;
+    left: -67px;
+}
+
+.circle h3{
+    font-size: calc(2.6vw + 30px);
+    color: #fff;
+    margin: calc(1.3vw + 24px) calc(0.4vw + 12px);
+}
+
+@media (max-width: 1036px){
+    .white{
+        margin-top: 90px;
+        /* position: relative; */
+    }
+
+    .last_section{
+        position: relative;
+    }
+
+    .circle{
+        position: absolute;
+        top: -50px;
+        left: 230px;
+    }
+    .white form label:nth-child(3){
+        display: none;
+    }
 }
