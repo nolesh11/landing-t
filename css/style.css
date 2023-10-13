@@ -18,8 +18,6 @@ h2{
 
 section{
     padding: 0 calc(10.6vw - 16px);
-    /* padding-left: calc(10vw - 16px); */
-    /* padding-right: calc(7.9vw - 6px); */
     margin-bottom: calc(11vw + 19px);
 }
 
@@ -43,8 +41,6 @@ section.hello{
     font-size: 21px;
     margin-bottom: 76px;
 }
-
-
 
 .value{
     font-weight: 700;
