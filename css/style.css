@@ -26,8 +26,8 @@ section{
 section.hello{
     background-image: url(../img/html_css_js\ 1.png);
     background-repeat: no-repeat;
-    background-position: right calc(4.8vw + 59px) top 60px;
-    background-size: calc(23.8vw + 90px);
+    background-position: right calc(6vw - 10px)  top calc(4.8vw + 19px);
+    background-size: calc(23.8vw + 89px);
 }
 
 .logo{
@@ -494,7 +494,7 @@ section:nth-child(8) img{
 }
 
 .box_img img{
-    width: calc(19.1vw + 334px);
+    width: calc(19.1vw + 168px);
     /* flex-grow: 1; */
 }
 
@@ -502,6 +502,7 @@ section:nth-child(8) img{
     flex-basis: calc(21.1vw + 248px);
     align-self: center;
     flex-grow: 0;
+    flex-shrink: 1;
 }
 
 
@@ -607,6 +608,7 @@ section:nth-child(10) h2{
 }
 
 .feedback{
+    box-sizing: border-box;
     flex-basis: calc(0.7vw + 325px);
     flex-shrink: 0;
     flex-grow: 1;
